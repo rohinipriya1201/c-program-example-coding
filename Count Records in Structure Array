@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 struct Student {
     int id;
     char name[20];
@@ -8,7 +9,10 @@ int main() {
     int n;
     struct Student s[50];
 
+    printf("Enter number of students: ");
     scanf("%d", &n);
-    printf("Total Records = %d", n);
+
+    printf("Total Records = %d\n", n);
+
     return 0;
 }
