@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char user[20] = "admin";
+    char pass[20] = "1234";
+    char u[20], p[20];
+
+    scanf("%s %s", u, p);
+
+    if(strcmp(user, u) == 0 && strcmp(pass, p) == 0)
+        printf("Login Successful");
+    else
+        printf("Invalid Login");
+
+    return 0;
+}
