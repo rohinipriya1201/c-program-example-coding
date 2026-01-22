@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    float rain[12], sum=0;
+    int i;
+
+    for(i=0;i<12;i++){
+        printf("Enter rainfall for month %d: ", i+1);
+        scanf("%f",&rain[i]);
+        sum += rain[i];
+    }
+
+    printf("Average Rainfall = %.2f", sum/12);
+    return 0;
+}
