@@ -1,0 +1,8 @@
+#include <stdio.h>
+void menu(){
+    printf("1. Tea\n2. Coffee\n3. Juice\n");
+}
+int main(){
+    menu();
+    return 0;
+}
