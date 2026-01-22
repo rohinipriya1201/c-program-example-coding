@@ -1,0 +1,10 @@
+#include <stdio.h>
+float bill(float amt){
+    return amt + (0.05*amt);
+}
+int main(){
+    float amt;
+    scanf("%f",&amt);
+    printf("Total Bill = %.2f", bill(amt));
+    return 0;
+}
