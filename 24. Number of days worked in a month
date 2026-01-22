@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int daysWorked;
+    printf("Enter number of days worked: ");
+    scanf("%d",&daysWorked);
+
+    printf("Total days worked = %d", daysWorked);
+    return 0;
+}
