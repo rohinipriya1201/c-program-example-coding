@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int n,i,att,present=0;
+
+    printf("Enter number of students: ");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++){
+        printf("Student %d (1=Present, 0=Absent): ", i);
+        scanf("%d",&att);
+        if(att==1) present++;
+    }
+
+    printf("Number of present students = %d", present);
+    return 0;
+}
