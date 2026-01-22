@@ -1,0 +1,12 @@
+#include <stdio.h>
+struct bus {
+    int ticketNo;
+    char name[20];
+    float fare;
+};
+int main(){
+    struct bus b;
+    scanf("%d %s %f",&b.ticketNo,b.name,&b.fare);
+    printf("Ticket:%d Name:%s Fare:%.2f",b.ticketNo,b.name,b.fare);
+    return 0;
+}
