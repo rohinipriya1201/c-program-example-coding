@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char mob[20];
+    scanf("%s", mob);
+
+    if(strlen(mob)==10)
+        printf("Valid Mobile Number");
+    else
+        printf("Invalid Mobile Number");
+
+    return 0;
+}
