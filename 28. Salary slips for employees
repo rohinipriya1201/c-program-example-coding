@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+    int n,i;
+    float basic, hra, da, total;
+
+    printf("Enter number of employees: ");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++){
+        printf("\nEmployee %d\n", i);
+        printf("Enter basic salary: ");
+        scanf("%f",&basic);
+
+        hra = 0.20 * basic;
+        da  = 0.10 * basic;
+        total = basic + hra + da;
+
+        printf("Total Salary = %.2f\n", total);
+    }
+
+    return 0;
+}
